@@ -1,0 +1,10 @@
+# Project exclude paths
+/carl-01-spring/target/
+/carl-02-di-xml/target/
+/carl-03-di-anno/target/
+/carl-05-aspectj/target/
+/carl-06-spring-mybatis/target/
+/carl-07-trans/target/
+/carl-08-trans-anno/target/
+/carl-09-trans-aspectj/target/
+/out/

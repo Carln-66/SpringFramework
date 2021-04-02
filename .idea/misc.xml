@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring_test/pom.xml" />
+        <option value="$PROJECT_DIR$/carl-02-di-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/carl-03-di-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/carl-05-aspectj/pom.xml" />
+        <option value="$PROJECT_DIR$/carl-06-spring-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/carl-07-trans/pom.xml" />
+        <option value="$PROJECT_DIR$/carl-08-trans-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/carl-09-trans-aspectj/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

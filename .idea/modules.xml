@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/carl-01-spring/carl-01-spring.iml" filepath="$PROJECT_DIR$/carl-01-spring/carl-01-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carl-02-di-xml/carl-02-di-xml.iml" filepath="$PROJECT_DIR$/carl-02-di-xml/carl-02-di-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carl-03-di-anno/carl-03-di-anno.iml" filepath="$PROJECT_DIR$/carl-03-di-anno/carl-03-di-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carl-04-aop-leadin/carl-04-aop-leadin.iml" filepath="$PROJECT_DIR$/carl-04-aop-leadin/carl-04-aop-leadin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carl-05-aspectj/carl-05-aspectj.iml" filepath="$PROJECT_DIR$/carl-05-aspectj/carl-05-aspectj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carl-06-spring-mybatis/carl-06-spring-mybatis.iml" filepath="$PROJECT_DIR$/carl-06-spring-mybatis/carl-06-spring-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carl-07-trans/carl-07-trans.iml" filepath="$PROJECT_DIR$/carl-07-trans/carl-07-trans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carl-08-trans-anno/carl-08-trans-anno.iml" filepath="$PROJECT_DIR$/carl-08-trans-anno/carl-08-trans-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carl-09-trans-aspectj/carl-09-trans-aspectj.iml" filepath="$PROJECT_DIR$/carl-09-trans-aspectj/carl-09-trans-aspectj.iml" />
+    </modules>
+  </component>
+</project>
