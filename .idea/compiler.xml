@@ -10,6 +10,7 @@
         <module name="carl-07-trans" />
         <module name="carl-02-di-xml" />
         <module name="carl-06-spring-mybatis" />
+        <module name="carl-10-spring-web" />
         <module name="carl-05-aspectj" />
         <module name="carl-09-trans-aspectj" />
         <module name="carl-01-spring" />
@@ -25,6 +26,7 @@
       <module name="carl-07-trans" target="1.8" />
       <module name="carl-08-trans-anno" target="1.8" />
       <module name="carl-09-trans-aspectj" target="1.8" />
+      <module name="carl-10-spring-web" target="1.8" />
       <module name="carl-4-di-test" target="8" />
     </bytecodeTargetLevel>
   </component>

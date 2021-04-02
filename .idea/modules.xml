@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/carl-07-trans/carl-07-trans.iml" filepath="$PROJECT_DIR$/carl-07-trans/carl-07-trans.iml" />
       <module fileurl="file://$PROJECT_DIR$/carl-08-trans-anno/carl-08-trans-anno.iml" filepath="$PROJECT_DIR$/carl-08-trans-anno/carl-08-trans-anno.iml" />
       <module fileurl="file://$PROJECT_DIR$/carl-09-trans-aspectj/carl-09-trans-aspectj.iml" filepath="$PROJECT_DIR$/carl-09-trans-aspectj/carl-09-trans-aspectj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carl-10-spring-web/carl-10-spring-web.iml" filepath="$PROJECT_DIR$/carl-10-spring-web/carl-10-spring-web.iml" />
     </modules>
   </component>
 </project>
