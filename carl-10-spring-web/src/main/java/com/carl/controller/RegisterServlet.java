@@ -6,11 +6,14 @@ package com.carl.controller; /**
 
 import com.carl.domain.Student;
 import com.carl.service.StudentService;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.web.context.WebApplicationContext;
+import org.springframework.web.context.support.WebApplicationContextUtils;
 
-import javax.servlet.*;
-import javax.servlet.http.*;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class RegisterServlet extends HttpServlet {
@@ -22,12 +25,24 @@ public class RegisterServlet extends HttpServlet {
         String strAge = request.getParameter("age");
 
         //创建spring的容器对象
-        String config = "applicationContext.xml";
-        ApplicationContext ac = new ClassPathXmlApplicationContext(config);
-        System.out.println("容器对象的信息--->" + ac);
+//        String config = "spring.xml";
+//        ApplicationContext ac = new ClassPathXmlApplicationContext(config);
+
+        //创建spring的容器对象
+//        WebApplicationContext ctx = null;
+//        String key = WebApplicationContext.ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE;
+//        Object attribute = getServletContext().getAttribute(key);
+//        if (attribute != null) {
+//            ctx = (WebApplicationContext) attribute;
+//        }
+
+        //利用框架中的工具类获取容器对象
+        ServletContext sc = getServletContext();
+        WebApplicationContext ctx = WebApplicationContextUtils.getWebApplicationContext(sc);
+        System.out.println("容器对象的信息--->" + ctx);
 
         //获取service
-        StudentService studentService = (StudentService) ac.getBean("studentService");
+        StudentService studentService = (StudentService) ctx.getBean("studentService");
         Student student = new Student(Integer.parseInt(strId), strName, strEmail, Integer.parseInt(strAge));
         studentService.addStudent(student);
 

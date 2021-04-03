@@ -11,4 +11,20 @@
         <servlet-name>RegisterServlet</servlet-name>
         <url-pattern>/reg</url-pattern>
     </servlet-mapping>
+    
+    <!--注册监听器ContextLoaderListener
+        监听器被创建对象后，会读取/WEB-INF/spring.xml
+        因为在监听器内部要创建ApplicationContext对象，需要加载配置文件，而/WEB-INF/applicationContext.xml就是监听器默认读取的spring
+        配置文件路径
+        可以修改默认的文件配置，使用context-param重新指定文件的位置
+    -->
+    <context-param>
+        <!--contextConfigLocation表示配置文件的路径-->
+        <param-name>contextConfigLocation</param-name>
+        <!--自定义配置文件的路径-->
+        <param-value>classpath:spring.xml</param-value>
+    </context-param>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
 </web-app>

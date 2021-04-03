@@ -4,10 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
-    <settings>
-        <setting name="logImpl" value="STDOUT_LOGGING"/>
-    </settings>
-
     <!--设置别名-->
     <typeAliases>
         <!--name: 实体类所在的包名-->
